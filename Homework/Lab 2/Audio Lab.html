@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html land = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audio Lab</title>
+    </head>
+    <style>
+        button {
+            width: 100px; 
+            height: 100px;
+            margin: 20px;
+        }
+        body{
+            padding:200px 0px 0px 250px;
+        }
+    </style>
+    <audio id="catAudio">
+        <source src="./cat sound.wav" type ="audio/wav">
+    </audio>
+    <audio id="dogAudio">
+        <source src="./dog sound.wav" type ="audio/wav">
+    </audio>
+    <audio id="eagleAudio">
+        <source src="./eagle sound.wav" type ="audio/wav">
+    </audio>
+    <audio id="lionAudio">
+        <source src="./lion sound.wav" type ="audio/wav">
+    </audio>
+    <audio id="pigAudio">
+        <source src="./pig sound.wav" type ="audio/wav">
+    </audio>
+    <body>
+        <button onclick="catAudio()" type = "button">Cat</button>
+        <button onclick="dogAudio()">Dog</button>
+        <button onclick="lionAudio()">Lion</button>
+        <button onclick="pigAudio()">Pig</button>
+        <button onclick="eagleAudio()">Eagle</button>
+    </body>
+    <script type="text/javascript" src="./Audio Lab.js"></script>
+</html>
